@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Report Suspicious Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #2E86C1;
+        }
+        p {
+            font-size: 14px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #2E86C1;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1A5276;
+        }
+    </style>
+</head>
+<body>
+    <h1>Report Suspicious Email</h1>
+    <p>If you believe this email is suspicious, click the button below to report it to your security team.</p>
+    <button onclick="reportEmail()">Report Email</button>
+
+    <script>
+        function reportEmail() {
+            alert("Email has been reported. Thank you!");
+        }
+    </script>
+</body>
+</html>
